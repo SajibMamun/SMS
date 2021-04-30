@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter a 11 digit phone number"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/edittextcallid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type Text"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/smseditid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="20sp"
+        />
+   <Button
+       android:onClick="sendbuttoonid"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Send"
+       android:textStyle="bold"
+       android:textAllCaps="true"
+       />
+
+
+</LinearLayout>
